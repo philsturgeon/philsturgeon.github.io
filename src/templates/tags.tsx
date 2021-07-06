@@ -1,6 +1,5 @@
 import { graphql } from 'gatsby';
 import React from 'react';
-import { FluidObject } from 'gatsby-image';
 
 import { Seo } from '../components/Seo';
 import { Footer } from '../components/Footer';
@@ -58,7 +57,7 @@ const Tags: React.FC<TagTemplateProps> = props => {
 
   return (
     <IndexLayout>
-      <Seo 
+      <Seo
         title={`${tag} - ${config.title}`}
         description={tagData?.node ? tagData.node.description : `Posts about ${tag}`}
         path={props.path}
@@ -133,9 +132,7 @@ export const pageQuery = graphql`
             date
             image {
               childImageSharp {
-                fluid(maxWidth: 1240) {
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(layout: FIXED, width: 1240)
               }
             }
             author {
@@ -144,9 +141,7 @@ export const pageQuery = graphql`
               avatar {
                 children {
                   ... on ImageSharp {
-                    fluid(quality: 100, srcSetBreakpoints: [40, 80, 120]) {
-                      ...GatsbyImageSharpFluid
-                    }
+                    gatsbyImageData(layout: FIXED, breakpoints: [40, 80, 120])
                   }
                 }
               }
