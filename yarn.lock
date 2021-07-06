@@ -6381,11 +6381,6 @@ gatsby-plugin-canonical-urls@^3.8.0:
   dependencies:
     "@babel/runtime" "^7.14.0"
 
-gatsby-plugin-disqus@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-disqus/-/gatsby-plugin-disqus-1.2.2.tgz#d10e72c2ac0f7205abd7dda2e8cb4ecc0743a824"
-  integrity sha512-RWiU8Jtg94kVphjBnxqnF+0txyJ3eZN/9vw/VlMgz0mor1FwULkiiiOyNXAJxbX6tFqYmypnmfa+edQWX/rMpQ==
-
 gatsby-plugin-emotion@6.8.0:
   version "6.8.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-emotion/-/gatsby-plugin-emotion-6.8.0.tgz#6c7a2ea1ac592463a9c0611c1b2e2014171b395b"
@@ -9024,11 +9019,6 @@ lodash.without@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.without/-/lodash.without-4.4.0.tgz#3cd4574a00b67bae373a94b748772640507b7aac"
   integrity sha1-PNRXSgC2e643OpS3SHcmQFB7eqw=
-
-lodash@4.17.19:
-  version "4.17.19"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
-  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lodash@4.17.21, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.17.4:
   version "4.17.21"
